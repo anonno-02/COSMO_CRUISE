@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'MARS.dart';
 
-class SpaceWiki extends StatelessWidget {
-  const SpaceWiki({super.key});
+class Explore extends StatelessWidget {
+  const Explore({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 15, 15, 15),
       appBar: AppBar(
-        title: const Text('Space Wiki'),
+        title: const Text('Explore'),
         centerTitle: true,
         backgroundColor: const Color.fromARGB(249, 15, 15, 15),
       ),

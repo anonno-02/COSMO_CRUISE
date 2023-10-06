@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'TravelPlan.dart';
 import 'SpaceNews.dart';
-import 'SpaceWiki.dart';
+import 'Discover.dart';
 
 class MainMenu extends StatelessWidget {
   const MainMenu({super.key});
@@ -33,15 +33,55 @@ class MainMenu extends StatelessWidget {
                     height: 2,
                     color: Colors.white),
               ),
-              const Divider(height: 40),
-              const Text(
-                "Hello Traveller, \nWelcome to COSMO CRUISE. Here you\ncan book your flight to tour around\nthe solar system and beyond!",
-                style: TextStyle(
-                    fontFamily: 'Poppins-Regular',
-                    fontSize: 18,
-                    height: 2,
-                    color: Colors.white),
+              const Divider(height: 20),
+              Card(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(15.0),
+                ),
+                color: const Color.fromARGB(255, 110, 105, 157),
+                margin: const EdgeInsets.fromLTRB(16, 16, 16, 0),
+                child: Padding(
+                  padding: const EdgeInsets.all(12.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Image.asset(
+                        'assets/images/cosmi.png',
+                        width: 60,
+                      ),
+                      Container(
+                        width: 10,
+                      ),
+                      const Expanded(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'Hello Traveller!',
+                              style: TextStyle(
+                                  fontFamily: 'Poppins-Regular',
+                                  fontSize: 16,
+                                  height: 1,
+                                  color: Color.fromARGB(255, 255, 255, 255)),
+                            ),
+                            Divider(height: 10),
+                            Text(
+                              'I am COSMI your travelbud. I will be your fellow partner in your journey. Please choose what are interested in.',
+                              style: TextStyle(
+                                  fontFamily: 'Poppins-Regular',
+                                  fontSize: 16,
+                                  height: 1,
+                                  color: Colors.white),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ),
+              const Divider(height: 20),
               Expanded(
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
@@ -68,7 +108,7 @@ class MainMenu extends StatelessWidget {
                           ),
                           const Divider(height: 10),
                           const Text(
-                            'Travel Plan',
+                            'Book Your Journey',
                             style: TextStyle(
                                 fontFamily: 'Poppins-Regular',
                                 fontSize: 14,
@@ -90,16 +130,15 @@ class MainMenu extends StatelessWidget {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => const SpaceWiki()),
+                                      builder: (context) => const Discover()),
                                 );
                               },
-                              child:
-                                  Image.asset('assets/images/space_wiki.png'),
+                              child: Image.asset('assets/images/discover.png'),
                             ),
                           ),
                           const Divider(height: 10),
                           const Text(
-                            'Space Wiki',
+                            'Discover',
                             style: TextStyle(
                                 fontFamily: 'Poppins-Regular',
                                 fontSize: 14,
@@ -124,13 +163,12 @@ class MainMenu extends StatelessWidget {
                                       builder: (context) => const SpaceNews()),
                                 );
                               },
-                              child:
-                                  Image.asset('assets/images/space_news.png'),
+                              child: Image.asset('assets/images/community.png'),
                             ),
                           ),
                           const Divider(height: 10),
                           const Text(
-                            'Space News',
+                            'Community',
                             style: TextStyle(
                                 fontFamily: 'Poppins-Regular',
                                 fontSize: 14,

@@ -1,6 +1,5 @@
 import 'MainMenu.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_signin_button/flutter_signin_button.dart';
 
 void main() {
   runApp(const MyApp());
@@ -46,15 +45,16 @@ class MyHomePage extends StatelessWidget {
                   height: 2,
                   color: Colors.white),
             ),
-            const Divider(height: 60),
-            SignInButton(Buttons.Google, onPressed: () {
-              print('click');
-            }),
-            const Divider(height: 16),
-            SignInButton(Buttons.FacebookNew, onPressed: () {
-              print('click');
-            }),
-            const Divider(height: 16),
+            const Divider(height: 10),
+            const Text(
+              "Book your tickets to outer space and beyond!",
+              style: TextStyle(
+                  fontFamily: 'Poppins-Regular',
+                  fontSize: 10,
+                  height: 1,
+                  color: Colors.white),
+            ),
+            const Divider(height: 120),
             SizedBox(
               height: 30,
               width: 220,
@@ -65,7 +65,10 @@ class MyHomePage extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => const MainMenu()),
                   );
                 },
-                child: const Text('Already have an account!'),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.black,
+                ),
+                child: const Text('Tap to proceed!'),
               ),
             ),
           ],

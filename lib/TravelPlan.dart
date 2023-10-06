@@ -9,7 +9,7 @@ class TravelPlan extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 15, 15, 15),
       appBar: AppBar(
-        title: const Text('Travel Plan'),
+        title: const Text('Book Your Journey'),
         centerTitle: true,
         backgroundColor: const Color.fromARGB(249, 15, 15, 15),
       ),
@@ -47,7 +47,7 @@ class TravelPlan extends StatelessWidget {
                                   fontFamily: 'Lekton',
                                   fontSize: 22,
                                   height: 1,
-                                  color: Color.fromARGB(74, 74, 84, 206)),
+                                  color: Color.fromARGB(255, 74, 84, 206)),
                             ),
                             const Divider(height: 10),
                             const Text(
@@ -113,7 +113,7 @@ class TravelPlan extends StatelessWidget {
                                   fontFamily: 'Lekton',
                                   fontSize: 22,
                                   height: 1,
-                                  color: Color.fromARGB(98, 98, 108, 234)),
+                                  color: Color.fromARGB(255, 98, 108, 234)),
                             ),
                             const Divider(height: 10),
                             const Text(
@@ -179,7 +179,7 @@ class TravelPlan extends StatelessWidget {
                                   fontFamily: 'Lekton',
                                   fontSize: 22,
                                   height: 1,
-                                  color: Color.fromARGB(178, 178, 113, 65)),
+                                  color: Color.fromARGB(255, 178, 113, 65)),
                             ),
                             const Divider(height: 10),
                             const Text(

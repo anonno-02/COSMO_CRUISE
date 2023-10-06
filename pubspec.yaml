@@ -82,6 +82,19 @@ flutter:
    - assets/images/spacenews_1.png
    - assets/images/spacenews_2.png
    - assets/images/spacenews_3.png
+   - assets/images/cosmi.png
+   - assets/images/community.png
+   - assets/images/discover.png
+   - assets/images/explore_cosmos1.png
+   - assets/images/space_tech.png
+   - assets/images/cosmo_guide.png
+   - assets/images/cosmo_guide1.png
+   - assets/images/cosmo_guide2.png
+   - assets/images/cosmo_guide3.png
+   - assets/images/cosmo_guide4.png
+   - assets/images/cosmo_guide5.png
+   - assets/images/cosmo_guide6.png
+   - assets/images/cosmo_feed1.png
   # - assets/images/a_dot_burr.jpeg
   # - assets/images/a_dot_ham.jpeg
 
