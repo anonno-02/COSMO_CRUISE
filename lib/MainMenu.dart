@@ -108,7 +108,7 @@ class MainMenu extends StatelessWidget {
                           ),
                           const Divider(height: 10),
                           const Text(
-                            'Book Your Journey',
+                            'Book a Journey',
                             style: TextStyle(
                                 fontFamily: 'Poppins-Regular',
                                 fontSize: 14,

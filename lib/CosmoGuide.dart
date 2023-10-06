@@ -36,12 +36,12 @@ class CosmoGuide extends StatelessWidget {
                       width: 10,
                     ),
                     const SizedBox(
-                      width: 300,
+                      width: 275,
                       child: Text(
                         "Before jumping to infinity and beyond. You should be aware of few things. This comprehensive guide exactly tells you what do you need to be prepared for.",
                         style: TextStyle(
                             fontFamily: 'Poppins-Regular',
-                            fontSize: 16,
+                            fontSize: 14,
                             height: 1,
                             color: Colors.white),
                       ),
@@ -50,6 +50,7 @@ class CosmoGuide extends StatelessWidget {
                 ),
               ),
             ),
+            const Divider(height: 90),
             Card(
               shadowColor: Colors.transparent,
               shape: RoundedRectangleBorder(

@@ -12,7 +12,14 @@ class MARS extends StatelessWidget {
         centerTitle: true,
         backgroundColor: const Color.fromARGB(249, 15, 15, 15),
       ),
-      body: Center(),
+      body: Container(
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/images/mars_details.png'),
+            fit: BoxFit.cover,
+          ),
+        ),
+      ),
     );
   }
 }

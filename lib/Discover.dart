@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'SpaceNews2.dart';
 import 'Explore.dart';
 import 'CosmoGuide.dart';
+import 'spaceTech.dart';
 
 class Discover extends StatelessWidget {
   const Discover({super.key});
@@ -69,7 +70,8 @@ class Discover extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => const Explore()),
+                      MaterialPageRoute(
+                          builder: (context) => const SpaceTech()),
                     );
                   },
                   style: ElevatedButton.styleFrom(
@@ -99,12 +101,7 @@ class Discover extends StatelessWidget {
                 height: 120,
                 width: 400,
                 child: ElevatedButton(
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => const Explore()),
-                    );
-                  },
+                  onPressed: () {},
                   style: ElevatedButton.styleFrom(
                     backgroundColor: const Color.fromARGB(255, 15, 15, 15),
                   ),
