@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'TravelPlan.dart';
-import 'SpaceNews.dart';
+import 'com_forum.dart';
 import 'Discover.dart';
 
 class MainMenu extends StatelessWidget {
@@ -160,7 +160,7 @@ class MainMenu extends StatelessWidget {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => const SpaceNews()),
+                                      builder: (context) => const ComForum()),
                                 );
                               },
                               child: Image.asset('assets/images/community.png'),

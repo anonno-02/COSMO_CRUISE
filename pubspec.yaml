@@ -103,6 +103,11 @@ flutter:
    - assets/images/dyson_sphere2.png
    - assets/images/mars_details.png
    - assets/images/nasa_pod.png
+   - assets/images/com_forum.png
+   - assets/images/com_forum1.png
+   - assets/images/orbital_flight_bg.png
+   - assets/images/traveller_details1.png
+   - assets/images/orbital_flight_ticket.png
   # - assets/images/a_dot_burr.jpeg
   # - assets/images/a_dot_ham.jpeg
 

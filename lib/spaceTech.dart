@@ -33,13 +33,7 @@ class SpaceTech extends StatelessWidget {
                   child: Stack(
                     children: <Widget>[
                       Container(
-                        width: 300,
-                        height: 230,
-                        color: const Color.fromARGB(249, 15, 15, 15),
-                        margin: const EdgeInsets.all(8.0),
-                      ),
-                      Container(
-                        padding: const EdgeInsets.all(5.0),
+                        padding: const EdgeInsets.all(8.0),
                         alignment: Alignment.bottomRight,
                         decoration: BoxDecoration(
                           image: DecorationImage(
@@ -55,7 +49,7 @@ class SpaceTech extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.end,
                           children: [
                             Padding(
-                              padding: EdgeInsets.all(8.0),
+                              padding: EdgeInsets.all(5.0),
                               child: Text('DYSON SPHERE      ',
                                   style: TextStyle(
                                     color: Colors.white,
