@@ -39,7 +39,7 @@ class OrbitalFlight extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                'DESCRIPTION                 ',
+                'DESCRIPTION                   ',
                 style: TextStyle(
                   fontFamily: 'Lekton',
                   fontSize: 22,
@@ -61,7 +61,7 @@ class OrbitalFlight extends StatelessWidget {
               ),
               const Divider(height: 20, color: Colors.black),
               const Text(
-                'KEY FEATURES                 ',
+                'KEY FEATURES                   ',
                 style: TextStyle(
                   fontFamily: 'Lekton',
                   fontSize: 22,

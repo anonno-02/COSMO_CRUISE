@@ -18,7 +18,7 @@ class TravellerDetails extends StatelessWidget {
             Container(
               height: double.infinity,
               width: double.infinity,
-              padding: const EdgeInsets.all(8.0),
+              ///padding: const EdgeInsets.all(8.0),
               decoration: const BoxDecoration(
                 image: DecorationImage(
                   image: AssetImage('assets/images/traveller_details1.png'),

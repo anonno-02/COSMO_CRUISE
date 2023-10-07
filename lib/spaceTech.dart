@@ -37,8 +37,7 @@ class SpaceTech extends StatelessWidget {
                         alignment: Alignment.bottomRight,
                         decoration: BoxDecoration(
                           image: DecorationImage(
-                            image: const NetworkImage(
-                                'https://cdn.mos.cms.futurecdn.net/iVzDgRJPRAKkrmJnpu86mU.jpg'),
+                            image: const AssetImage('assets/images/dsphere1.png'),
                             colorFilter: ColorFilter.mode(
                                 Colors.black.withOpacity(0.6),
                                 BlendMode.colorBurn),
