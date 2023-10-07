@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'SpaceJump.dart';
 import 'OrbitalFlight.dart';
+import 'PlanetaryTravel.dart';
 
 class TravelPlan extends StatelessWidget {
   const TravelPlan({super.key});
@@ -201,7 +202,7 @@ class TravelPlan extends StatelessWidget {
                                     context,
                                     MaterialPageRoute(
                                         builder: (context) =>
-                                            const SpaceJump()),
+                                            const PlanetaryTravel()),
                                   );
                                 },
                                 style: ElevatedButton.styleFrom(

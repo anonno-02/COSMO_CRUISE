@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'TravellerDetails.dart';
+import 'GeneratedItinery.dart';
 
-class SpaceJump extends StatelessWidget {
-  const SpaceJump({super.key});
+class ItenaryGenerator extends StatelessWidget {
+  const ItenaryGenerator({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: const Color.fromARGB(255, 15, 15, 15),
         appBar: AppBar(
-          title: const Text('Space Jump'),
+          title: const Text('Itenary Generator'),
           centerTitle: true,
           backgroundColor: const Color.fromARGB(249, 15, 15, 15),
         ),
@@ -21,7 +21,7 @@ class SpaceJump extends StatelessWidget {
               ///padding: const EdgeInsets.all(8.0),
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/images/flight_info_mars.png'),
+                  image: AssetImage('assets/images/itenary_generator.png'),
                 ),
               ),
               child: Column(
@@ -45,14 +45,14 @@ class SpaceJump extends StatelessWidget {
                               context,
                               MaterialPageRoute(
                                   builder: (context) =>
-                                      const TravellerDetails()),
+                                      const GeneratedItinery()),
                             );
                           },
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.transparent,
                           ),
                           child: const Text(
-                            'Book Now!',
+                            'Generate Itenary',
                             style: TextStyle(
                               color: Color.fromARGB(255, 0, 0, 0),
                               fontSize: 18,

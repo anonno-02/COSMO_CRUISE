@@ -108,6 +108,9 @@ flutter:
    - assets/images/orbital_flight_bg.png
    - assets/images/traveller_details1.png
    - assets/images/orbital_flight_ticket.png
+   - assets/images/itenary_generator.png
+   - assets/images/flight_info_mars.png
+   - assets/images/generated_itinery.png
   # - assets/images/a_dot_burr.jpeg
   # - assets/images/a_dot_ham.jpeg
 
